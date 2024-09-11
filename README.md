@@ -1,6 +1,6 @@
-# homelink_responder_app
+# Homelink Responder App
 
-A new Flutter project designed to provide a responsive home link application.
+An application for HomeLink Responders.
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Follow these steps to set up the project:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/homelink_responder_app.git
+   git clone https://github.com/OliverHolt/homelink-tech-test.git
    ```
 
 2. **Navigate to the project directory:**
@@ -50,7 +50,7 @@ flutter test
 
 To contribute to this project, follow these steps:
 
-1. **Fork the repository:**
+1. **Fork the repository**
 2. **Create a new branch:**
 
 ```sh
@@ -69,7 +69,7 @@ git commit -m 'Add some feature'
 git push origin feature-branch
 ```
 
-5. **Create a pull request:**
+5. **Create a pull request!**
 
 ## Licence
 
