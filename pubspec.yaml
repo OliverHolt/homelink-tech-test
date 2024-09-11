@@ -1,0 +1,44 @@
+name: homelink_responder_app
+description: "An app that will allow responders to act on alerts from SOS pendants"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  video_player: ^2.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/plus_button.png
+    - assets/icons/person_icon.png
+    - assets/icons/settings.png
+    - assets/icons/live_icon.png
+    - assets/icons/summary_icon.png
+    - assets/alert_with_resident.png
+    - assets/logo.png
+    - assets/homelink_tick.mp4
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
